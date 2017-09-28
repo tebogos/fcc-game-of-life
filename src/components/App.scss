@@ -1,0 +1,29 @@
+$secondary-color:#F2D6B0;
+$primary-color:#F2D6B0;
+$primary-background-color:#4D677B;
+$secondary-background-color:#222;
+body{
+  text-align: center;
+}
+.game-box{
+  background: $primary-background-color;
+  display:inline-block;
+  padding:20px;
+  border-radius: 10px;
+  margin: 0 0 0 0;
+}
+
+span{
+  color: #BBCAF3;
+  font-family: monospace;
+  font-size: 2em;
+}
+button{
+  background: $secondary-color;
+  border:solid $secondary-color;
+  margin: 5px;
+  color: #fff;
+  border-radius: 5px;
+  // width: 80px;
+  height: 25px;
+}
