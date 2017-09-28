@@ -2,10 +2,13 @@
   "name": "fcc-game-of-life",
   "version": "1.0.0",
   "description": "Free Code Camp Game Of Life project",
+  "Homepage": "http://tebogos.github.io/fcc-game-of-life",
   "main": "index.js",
   "scripts": {
     "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot",
-    "build:prod": "webpack -p"
+    "build:prod": "webpack -p",
+    "predeplay": "npm run build:prod",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "FCC",
@@ -27,6 +30,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.7",
     "file-loader": "^0.11.2",
+    "gh-pages": "^1.0.0",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
